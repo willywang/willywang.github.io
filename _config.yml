@@ -7,7 +7,7 @@ title: I.M.U
 subtitle:
 description:
 author: willywang
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -80,3 +80,9 @@ deploy:
   type: git
   repo: git@github.com:willywang/willywang.github.io.git
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000

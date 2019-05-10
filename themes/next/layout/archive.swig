@@ -13,6 +13,7 @@
   {#####################}
   <div class="post-block archive">
     <div id="posts" class="posts-collapse">
+      <!--
       <span class="archive-move-on"></span>
 
       {% if theme.cheers %}
@@ -30,6 +31,8 @@
         {{ __('cheers.' + cheers) }}! {{ _p("counter.archive_posts", site.posts.length) }} {{ __('keep_on') }}
       </span>
       {% endif %}
+
+      -->
 
       {% for post in page.posts %}
 
