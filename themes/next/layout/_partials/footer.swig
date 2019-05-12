@@ -37,7 +37,7 @@
   {% endif %}
 </div>
 
-<!--
+
 
 {% if theme.footer.powered.enable %}
   <div class="powered-by">{#
@@ -58,7 +58,7 @@
 #}</div>
 {% endif %}
 
--->
+
 
 {% if theme.footer.custom_text %}
   <div class="footer-custom">{#
